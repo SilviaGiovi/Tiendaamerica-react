@@ -1,32 +1,16 @@
-// Import the functions you need from the SDKs you need
-
 import { initializeApp } from "firebase/app";
 import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyA_vl2klnUgm06zzolhZa_WN7ElIeW7PDM",
-  authDomain: "proyecto-auten.firebaseapp.com",
-  projectId: "proyecto-auten",
-  storageBucket: "proyecto-auten.firebasestorage.app",
-  messagingSenderId: "339391139003",
-  appId: "1:339391139003:web:917ff592393f01ba2ded9e"
+    apiKey: "AIzaSyDYurvqxgCTQ92os8BvGnGAoE3g3YrTR0c",
+    authDomain: "prueba-auth-e64d8.firebaseapp.com",
+    projectId: "prueba-auth-e64d8",
+    storageBucket: "prueba-auth-e64d8.firebasestorage.app",
+    messagingSenderId: "1042020842950",
+    appId: "1:1042020842950:web:b2694d263646612bb606c7",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-
-
-
-
-
-
-
-
-
 
 //////////////////////////////////////////////////////////////////////
 ///////////////// AUTENTICACIÓN DE USUARIOS FIREBASE//////////////////////////

@@ -6,16 +6,16 @@ function MainBootstrap() {
       <Row className="align-items-center">
         <Col xs={12} md={4} lg={4}>
           <Image
-            src="https://www.uship.com/learn/ca/wp-content/uploads/sites/3/thumbnail-placeholder-300x200-300x200.png"
+            src="/imagenes/imagen1.jpg"
             alt="Imagen ilustrativa"
             fluid
             rounded
           />
         </Col>
         <Col xs={12} md={8} lg={8}>
-          <h2>Contenido Principal Actualizado</h2>
+          <h2>Tienda America ... todo lo que necesitas y mas ....</h2>
           <p>
-            Este es un ejemplo de contenido dentro del área principal.
+            Una moda que se adapta a vos....
           </p>
         </Col>
       </Row>

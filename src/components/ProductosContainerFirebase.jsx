@@ -8,7 +8,7 @@ function ProductosContainerFirebase({}){
     const [error, setError] = useState(null);
 
     {useEffect(() => {
-        fetch('https://68100d8b27f2fdac24101ef5.mockapi.io/productos')
+        fetch('https://6827defa6b7628c529118c63.mockapi.io/Productos')
             .then((respuesta) =>
                 respuesta.json()
             )
@@ -19,7 +19,7 @@ function ProductosContainerFirebase({}){
             })
             .catch((error) => {
                 console.log("Error", error)
-                setError('Hubo un problema al cargar los productos.');
+                setError('Hubo un problema al cargar los productosoooo.');
                 setCargando(false);
             });
     }, []);}
