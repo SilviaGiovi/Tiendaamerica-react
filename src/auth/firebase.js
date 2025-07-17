@@ -6,18 +6,19 @@ import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWith
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyA_vl2klnUgm06zzolhZa_WN7ElIeW7PDM",
-  authDomain: "proyecto-auten.firebaseapp.com",
-  projectId: "proyecto-auten",
-  storageBucket: "proyecto-auten.firebasestorage.app",
-  messagingSenderId: "339391139003",
-  appId: "1:339391139003:web:917ff592393f01ba2ded9e"
-};
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
+const firebaseConfig = {
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+};
 
 
 
